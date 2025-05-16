@@ -3,7 +3,6 @@
 # DOMAIN-KEYWORD,openai
 # DOMAIN-KEYWORD,anthropic
 # DOMAIN-KEYWORD,Claude
-DOMAIN-KEYWORD,hongxingyunmovie
 # 域名后缀匹配
 DOMAIN,copilot.microsoft.com
 DOMAIN-SUFFIX,bing.com
@@ -34,8 +33,8 @@ DOMAIN-SUFFIX,bortzmeyer.org
 DOMAIN-SUFFIX,groq.com
 DOMAIN-SUFFIX,difyai.com
 DOMAIN-SUFFIX,genspark.ai
-
 DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,googleapis.cn
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,signalr.net
+DOMAIN-SUFFIX,hongxingyunmovie.vip
