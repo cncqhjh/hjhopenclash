@@ -19,4 +19,4 @@ OpenClash/Subconverter 自定义模板与本地规则。
 
 IPv6-only 检测成功表示节点能够访问 IPv6 目标，但不保证所有双栈网站都会采用 IPv6。使用前仍应分别实测 IPv4、IPv6 与 DNS 出口。
 
-AI 服务统一使用 `✨ AI`，默认选择 `美国-自动`，且不提供 `DIRECT`，避免 AI 服务在新配置中意外直连。迁移期间临时保留 `✨ AI1` 兼容入口，待 OpenClash DNS 引用切换后删除。
+AI 服务统一使用 `✨ AI`，默认选择 `美国-自动`，且不提供 `DIRECT`，避免 AI 服务在新配置中意外直连。OpenClash DNS 和自定义规则均应直接引用 `✨ AI`。
