@@ -1,4 +1,4 @@
-# 内容：OpenAi Bard anthropic
+# 内容：OpenAI、Claude、Gemini、Copilot、Meta AI、Perplexity 等 AI 服务
 # 域名关键字匹配
 # DOMAIN-KEYWORD,openai
 # DOMAIN-KEYWORD,anthropic
@@ -37,3 +37,10 @@ DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,googleapis.cn
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,signalr.net
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,metademolab.com
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,hcaptcha.com
+DOMAIN-SUFFIX,hcaptchausercontent.com
+IP-CIDR,74.125.250.0/24,no-resolve
+DOMAIN-SUFFIX,google.com
