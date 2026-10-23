@@ -14,7 +14,7 @@ OpenClash/Subconverter 自定义模板与本地规则。
 
 两个模板均提供以下两个 IPv6 节点组：
 
-- `🌐 IPv6-自动检测`：使用 IPv6-only 地址 `https://ipv6.google.com/generate_204` 每 300 秒检测全部节点，并自动选择检测成功的低延迟节点。
+- `🌐 IPv6-自动检测`：使用 IPv6-only 地址 `https://ipv6.google.com/generate_204` 每 300 秒检测节点，排除“剩余/到期/重置/流量/套餐/官网/时间”等机场信息项，并自动选择检测成功的低延迟节点。
 - `🌐 IPv6-手动`：按节点名称中的 `IPv6`、`V6` 或 `IP6` 标记筛选，未匹配时只保留 `REJECT`，避免误直连。
 
 IPv6-only 检测成功表示节点能够访问 IPv6 目标，但不保证所有双栈网站都会采用 IPv6。使用前仍应分别实测 IPv4、IPv6 与 DNS 出口。
