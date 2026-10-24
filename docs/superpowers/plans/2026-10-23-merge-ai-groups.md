@@ -53,4 +53,3 @@
 - [ ] Remove the temporary `✨ AI1` alias and delete `AI2.list`.
 - [ ] Run `tests/validate-ai-merge.ps1`; expect success.
 - [ ] Commit, push, update subscription, and verify no AI1/AI2 remains at runtime.
-
