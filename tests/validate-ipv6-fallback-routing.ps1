@@ -2,7 +2,7 @@ $ErrorActionPreference = 'Stop'
 
 $root = Split-Path -Parent $PSScriptRoot
 $templates = @('Clash-hjhFull.ini', 'Clash-cncqhjh.ini')
-$ipv6Fallback = 'ruleset=🌍 国外,[]IP-CIDR6,::/0,no-resolve'
+$ipv6Fallback = 'ruleset=🌐 IPv6-自动检测,[]IP-CIDR6,::/0,no-resolve'
 $finalRule = 'ruleset=➡️ 国内,[]FINAL'
 
 foreach ($template in $templates) {
@@ -11,7 +11,7 @@ foreach ($template in $templates) {
     $finalIndex = [Array]::IndexOf($lines, $finalRule)
 
     if ($ipv6Index -lt 0) {
-        throw "$template does not route unmatched IPv6 traffic to 🌍 国外"
+        throw "$template does not route unmatched IPv6 traffic to 🌐 IPv6-自动检测"
     }
     if ($finalIndex -lt 0 -or $ipv6Index -ge $finalIndex) {
         throw "$template must place the IPv6 fallback before FINAL"
