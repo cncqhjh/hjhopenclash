@@ -9,6 +9,11 @@ $templates = @(
 )
 
 $requiredRules = @(
+    'DOMAIN-SUFFIX,anthropic.com',
+    'DOMAIN-SUFFIX,claude.ai',
+    'DOMAIN-SUFFIX,claude.com',
+    'DOMAIN-SUFFIX,ip.net.coffee',
+    'DOMAIN-SUFFIX,ippure.com',
     'DOMAIN-SUFFIX,meta.ai',
     'DOMAIN-SUFFIX,metademolab.com',
     'DOMAIN-SUFFIX,perplexity.ai',
