@@ -19,6 +19,10 @@ $requiredRules = @(
     'DOMAIN-SUFFIX,perplexity.ai',
     'DOMAIN-SUFFIX,hcaptcha.com',
     'DOMAIN-SUFFIX,hcaptchausercontent.com',
+    'DOMAIN-SUFFIX,antigravity.google',
+    'DOMAIN,antigravity-cli-auto-updater-974169037036.us-central1.run.app',
+    'DOMAIN,antigravity-hub-auto-updater-974169037036.us-central1.run.app',
+    'DOMAIN-SUFFIX,antigravity-unleash.goog',
     'IP-CIDR,74.125.250.0/24,no-resolve',
     'DOMAIN-SUFFIX,google.com'
 )
